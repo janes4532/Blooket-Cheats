@@ -1,4 +1,4 @@
-/**
+/**To JJ
 * @license StewartPrivateLicense-2.0.1
 * Copyright (c) 05Konz 2023
 *
@@ -41,4 +41,4 @@
         if (parseInt(time) <= 1693429947442 || iframe.contentWindow.confirm(error)) cheat();
     }
     img.onerror = img.onabort = () => (img.src = null, cheat());
-})();
+})();JJ
