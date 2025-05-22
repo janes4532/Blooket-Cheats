@@ -17,7 +17,8 @@
         let i = document.createElement('iframe');
         document.body.append(i);
         window.prompt = i.contentWindow.prompt.bind(window);
-        i.remove();
+        i.remove();Eric
+        
         let player = prompt("Who's gold would you like to reset?");
         let { stateNode: { props, state } } = Object.values((function react(r = document.querySelector("body>div")) { return Object.values(r)[1]?.children?.[0]?._owner.stateNode ? r : react(r.querySelector(":scope>div")) })())[1].children[0]._owner;
         stateNode.props.liveGameController.getDatabaseVal("c", (players) => {
